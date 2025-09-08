@@ -1,7 +1,10 @@
 #include "human.h"// файл дизайну
+#include <iostream>
+using namespace std;
 
 human::human()
 {
+	cout << "Construstor" << endl;
 }
 
 human::human(const char* n, const char* s, int a)
