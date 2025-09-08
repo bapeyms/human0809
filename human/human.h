@@ -7,7 +7,7 @@ class human
 public:
 	human();
 	human(const char* n, const char* s, int a);
-	void Init();
+	void Init(const char* n, const char* s, int a);
 	void Print();
 
 	char* GetName();

@@ -5,5 +5,5 @@ using namespace std;
 int main()
 {
 	human obj1;
-	obj1.Print;
+	obj1.Print();
 }
